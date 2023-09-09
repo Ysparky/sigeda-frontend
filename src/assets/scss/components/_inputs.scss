@@ -7,6 +7,28 @@
     flex-wrap: wrap;
   }
 
+  &-search {
+    .v-input__slot {
+      background-color: #ffffff;
+      border-radius: 0.5em !important;
+      padding: 0 1em !important;
+      & fieldset {
+        border: 1px solid #6f51ff;
+      }
+      input {
+        color: #4d527e;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+      }
+      i {
+        color: #6f51ff;
+        font-size: 20px;
+        padding-right: 0.5em;
+      }
+    }
+  }
+
   &-label {
     color: #373458;
     cursor: default;
@@ -14,15 +36,15 @@
     font-weight: 600;
     line-height: 16px;
     text-transform: uppercase;
-    padding: 0.25rem 0;
+    padding: 0.25em 0;
   }
 
   &-text {
     width: 100%;
     .v-input__slot {
       background-color: #ffffff !important;
-      padding: 0 1rem !important;
-      border-radius: 0.5rem !important;
+      padding: 0 1em !important;
+      border-radius: 0.5em !important;
       & fieldset {
         border: none !important;
       }

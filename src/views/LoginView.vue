@@ -2,10 +2,10 @@
   <div class="d-flex fill-height justify-center align-center bg-login">
     <v-card
       class="elevation-3 d-flex flex-column"
-      style="background: #f8f7fb; padding: 4rem 3rem"
+      style="background: #f8f7fb; padding: 4em 3em"
     >
       <v-img
-        style="margin: auto; margin-bottom: 3rem"
+        style="margin: auto; margin-bottom: 3em"
         max-height="200"
         max-width="200"
         src="../assets/images/logo-empresa.png"
