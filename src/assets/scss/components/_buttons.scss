@@ -1,0 +1,11 @@
+.button {
+  display: flex;
+  cursor: pointer !important;
+
+  &-primary {
+    color: #ffffff;
+    background: #6f51ff;
+    border-radius: 2em !important;
+    text-align: center;
+  }
+}
